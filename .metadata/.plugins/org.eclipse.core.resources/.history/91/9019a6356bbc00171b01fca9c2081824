@@ -1,0 +1,9 @@
+package com.Yz.repository;
+
+public class HibernateCustomerRepostioryImpl {
+
+	public List<Customer> findAll(){
+		
+	}
+	
+}

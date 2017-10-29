@@ -1,0 +1,17 @@
+package com.Yz.service;
+
+import java.util.List;
+
+import com.Yz.model.Customer;
+import com.Yz.repository.CustomerRepository;
+import com.Yz.repository.HibernateCustomerRepositoryImpl;
+
+public class CustomerServcieImpl {
+
+	private CustomerRepository customerRepository = new HibernateCustomerRepositoryImpl();
+	
+	public List<Customer>  findAll(){
+		return customerRepository.findAll();
+	}
+	
+}

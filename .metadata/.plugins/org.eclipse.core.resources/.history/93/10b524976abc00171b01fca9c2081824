@@ -1,0 +1,5 @@
+package com.Yz.repository;
+
+public class HibernateCustomerRepostioryImpl {
+
+}

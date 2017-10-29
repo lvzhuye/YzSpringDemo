@@ -1,0 +1,4 @@
+1509255551819	Extract interface 'CustomerRepository'
+1509255966218	Rename compilation unit 'HibernateCustomerRepostioryImpl.java'
+1509256198569	Extract interface 'CustomerService'
+1509257425129	Rename type 'CustomerServcieImpl'
